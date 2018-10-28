@@ -1,0 +1,39 @@
+svg {
+  margin: 0px auto;
+  display: block;
+}
+input {
+  margin: 50px auto 10px auto;
+  display: block;
+}
+#inval {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+g line {
+  stroke: #ccc;
+  stroke-dasharray: 10 5;
+}
+.tooltip {
+  opacity: 0;
+  position: absolute;
+  background-color: grey;
+  color: black;
+  pointer-events: none;
+  border-radius: 8px;
+  border: 5px solid black;
+  padding: 10px;
+}
+.tooltip p {
+  margin: 0;
+}
+.tooltip:after {
+  content: "   ";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  border: 12px solid transparent;
+  border-bottom-color: black;
+  margin-left: -6px;
+}
